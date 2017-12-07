@@ -105,9 +105,9 @@ be used:
 - `websockets` this is the current default an prefered method.
 - `sse` is an older method that uses HTTP streaming.
 
-Some people reported having issues with `websockets` when using DuckDNS and
+**Note**: _Some people reported having issues with `websockets` when using DuckDNS and
 Let's Encrypt, in that case setting the `commtype` to `sse` might be an
-option.
+option._
 
 ## AppDaemon and HADashboard configuration
 
